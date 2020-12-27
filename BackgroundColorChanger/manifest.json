@@ -1,0 +1,27 @@
+{
+  "name": "Background Color Changer",
+  "version": "1.0",
+  "description": "Change the background color of most of the web page sites",
+  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "options_page": "options.html",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "page_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "Background Color Changer16.png",
+      "32": "Background Color Changer32.png",
+      "48": "Background Color Changer48.png",
+      "128": "Background Color Changer128.png"
+    }
+  },
+  "icons": {
+    "16": "Background Color Changer16.png",
+    "32": "Background Color Changer32.png",
+    "48": "Background Color Changer48.png",
+    "128": "Background Color Changer128.png"
+  },
+  "manifest_version": 2
+}
